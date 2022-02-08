@@ -23,7 +23,7 @@ class BlogPostTemplate extends React.Component {
         />
         <Hero
           image={post.heroImage?.gatsbyImageData}
-          title={post.heroImage.title} //{post.title}
+          title={post.title} // comment
           content={post.description?.childMarkdownRemark?.excerpt}
         />
         <div className={styles.container}>
